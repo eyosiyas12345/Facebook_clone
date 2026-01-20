@@ -4,13 +4,21 @@ publish_to: 'none'
 
 version: 1.0.0+1
 
+# environment:
+#   sdk: ^3.0.0
+
 environment:
-  sdk: ^3.0.0
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
   image_picker: ^1.0.7
+  firebase_core: ^3.10.1  # Update this to a version >= 3.0.0
+  firebase_auth: ^5.5.0   # Update this to match
+  google_sign_in: ^6.1.6
+
+  
 
 dev_dependencies:
   flutter_test:
